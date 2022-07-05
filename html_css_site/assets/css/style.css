@@ -1,0 +1,19 @@
+body {
+    background: cornsilk;
+    
+    margin: 0;
+    font-family: 'Yellowtail', cursive;
+    
+    font-size: 15px;
+    line-height: 2;
+    color: tomato;
+}
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
