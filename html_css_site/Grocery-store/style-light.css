@@ -33,7 +33,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-main{
+main:not(.sundress){
     box-sizing: border-box;
     margin: 100px 0px;
     padding: 1% 1%;
@@ -42,10 +42,21 @@ main{
     width: 100%;
     height: 100vh;
 }
+.sundress{
+    background: floralwhite;
+    box-sizing: border-box;
+    margin: 100px 0px 0px 0px;
+    padding: 0px 0px 100px 0px;
+    bottom: 100px;
+    color: darkolivegreen;
+    width: 100%;
+    height: 100%;
+}
 button, input{
     color: darkolivegreen;
     border-color: darkolivegreen;
     background: antiquewhite;
+    border-radius: 4px;
 }
 button{
     color: darkolivegreen;
@@ -83,4 +94,9 @@ a{
     color: rgba(100, 100, 100, 0.5); 
     font-size: 14px;
     margin: 0;
+}
+.data{
+    border: 3px solid darkolivegreen;
+    padding: 5px;
+    border-radius: 4px;
 }

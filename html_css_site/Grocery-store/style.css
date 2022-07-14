@@ -57,6 +57,7 @@ button, input{
     color: lightgray;
     border-color: tomato;
     background: #040404;
+    border-radius: 4px;
 }
 button{
     color:tomato;
@@ -94,4 +95,9 @@ a{
     color: rgba(128, 128, 128, 0.5); 
     font-size: 14px;
     margin: 0;
+}
+.data{
+    border: 3px solid tomato;
+    padding: 5px;
+    border-radius: 4px;
 }
