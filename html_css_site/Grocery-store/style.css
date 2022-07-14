@@ -34,12 +34,22 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-main{
+
+main:not(.sundress){
     box-sizing: border-box;
     margin: 100px 0px;
     padding: 1% 1%;
-    background: url("tomato-dark-repeat.jpg") center repeat;
-    color: lightgrey;
+    background: url("tomato-dark.jpg") center repeat;
+    color: lightgray;
+    width: 100%;
+    height: 100vh;
+}
+.sundress{
+    background: darkslateblue;
+    box-sizing: border-box;
+    margin: 100px 0px;
+    padding: 1% 1%;
+    color: floralwhite;
     width: 100%;
     height: 100vh;
 }
