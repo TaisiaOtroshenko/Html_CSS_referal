@@ -7,12 +7,11 @@ footer{
     font-family: 'Raleway', sans-serif;
     color: tomato; 
     text-align: center;
-    position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 80px;
     background: #040404;
+    position:fixed;
+   bottom:0px;
+   height:80px;
+   width:100%;
 }
 header{
     font-family: 'Raleway', sans-serif;
@@ -51,7 +50,7 @@ main:not(.sundress){
     padding: 1% 1%;
     color: floralwhite;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 button, input{
     color: lightgray;
